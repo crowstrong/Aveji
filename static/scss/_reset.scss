@@ -1,0 +1,20 @@
+@import "_vars";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+a {
+	text-decoration: none;
+}
+input {
+	all: unset;
+	&::placeholder {
+		color: $color_1;
+		font-size: 16px;
+		font-family: $roboto;
+		font-weight: 400;
+	}
+}
